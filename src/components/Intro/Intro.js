@@ -17,6 +17,7 @@ const Intro = () => {
         </p>
         <Link>
           <button className="btn">
+            <a href="src/assets/jaya.pdf" download="" />
             <img src={briefcase} alt="Hire Me" className="btnImg" />
             Hire Me
           </button>
