@@ -1,7 +1,7 @@
 import "./Intro.css";
 import bg from "../../assets/WhatsApp Image 2023-11-20 at 23.04.09 (1).png";
 import briefcase from "../../assets/briefcase.png";
-import { Link } from "react-scroll";
+import cv from "../../assets/jaya.pdf";
 const Intro = () => {
   return (
     <section id="intro">
@@ -15,13 +15,12 @@ const Intro = () => {
           I am a skilled web designer with experience in <br />
           creating visually appealing and user friendly websites.
         </p>
-        <Link>
+        <a href={cv} download={cv}>
           <button className="btn">
-            <a href="src/assets/jaya.pdf" download="" />
             <img src={briefcase} alt="Hire Me" className="btnImg" />
-            Hire Me
+            Hire me
           </button>
-        </Link>
+        </a>
       </div>
       <div>
         <img src={bg} alt="Profile" className="bg" />
